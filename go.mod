@@ -1,4 +1,4 @@
-module keyvault
+module github.com/guobinqiu/keyvault
 
 go 1.15
 
