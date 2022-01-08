@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-Set environment variables
+Set Azure Environment Variables
 
 ```bash
 export AZURE_ENVIRONMENT=xxxxxx
@@ -15,7 +15,7 @@ export KVAULT=xxxxxx
 ### Sample
 
 ```
-cli, err := client.NewKeyvaultClient()
+cli, err := client.NewAzureClient()
 if err != nil {
     panic(err)
 }
